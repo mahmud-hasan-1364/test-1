@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <!--menu section-->
+  <div class="container-fluid top-section pb-5">
+  <div class="container">
+      <div class="row clearfix">
+          <div class="col-3 mt-5 float-right menu">
+              <a class="" href="#offcanvas-usage" uk-toggle><i class="fa fa-bars" aria-hidden="true"></i></a>
+
+      <div id="offcanvas-usage" uk-offcanvas="overlay: true">
+          <div class="uk-offcanvas-bar">
+
+              <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+              <nav class="navbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                          Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="menu.html">first food</a>
+                          <a class="dropdown-item" href="menu.html">vegitables</a>
+                          <a class="dropdown-item" href="menu.html">Special dish</a>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">contact</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">policy</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">about us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+          </div>
+      </div>
+          </div>
+
+          <div class="col-6 text-center mt-sm-4 pr-5">
+              <h1 class="display-4">A B C Restaurant</h1>
+          </div>
+
+          <div class="col-3 mt-5 float-right">
+              <button class="btn btn-warning"> Order Now</button> <strong class="text-danger">16253</strong> <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+
+      </div>
+  </div>
+  </div>
+  <!--video section-->
+<section id="video-section" class="py-5 text-center">
+<div class="dark-overlay">
+  <div class="container justify-content-center">
+        <div uk-lightbox>
+          <a href="https://youtu.be/eXrQ47sRwmM">
+            <i class="fa fa-play"></i>
+          </a>
+        </div>
+  </div>
+</div>
+</section>
+<!--info section-->
+<section id="info-section" class="py-5 text-sm-center">
+<div class="container">
+  <div class="py-3 text-center">
+    <h1>Our Special Dish</h1>
+  </div>
+  <div class="row" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 200; repeat: true">
+    <div class="col-lg-4">
+     <div class="uk-card">
+      <img src="img/info1.png" class="img-fluid" alt="">
+      <h2>Get our special dish</h2>
+      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vitae maxime, vero minus explicabo aliquam fugit consectetur totam voluptatem blanditiis.</p>
+     </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="uk-card">
+       <img src="img/info2.png" class="img-fluid" alt="">
+       <h2>Get our special dish</h2>
+       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vitae maxime, vero minus explicabo aliquam fugit consectetur totam voluptatem blanditiis.</p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="uk-card">
+       <img src="img/info3.png" class="img-fluid" alt="">
+       <h2>Get our special dish</h2>
+       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa vitae maxime, vero minus explicabo aliquam fugit consectetur totam voluptatem blanditiis.</p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+<!--get startted-->
+<section id="get-started" class="py-5 text-center">
+<div class="overlay">
+  <div class="container">
+  <h2>Are You Ready To Get Started</h2>
+  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam blanditiis, minima illo debitis libero commodi quos amet. Vero nulla veritatis porro nobis, quae ab cumque.</p>
+  <a class="btn" href="">Get Yours</a>
+  </div>
+</div>
+</section>
+<!--What people say-->
+<section id="people-say" class="py-5">
+<div class="container">
+  <div class="text-center py-5">
+    <h1 class="">What Customer's Say About us</h1>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="card" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+        <img src="img/person1.png" class="img-fluid" alt="">
+        <div class="card-body">
+        <h3 class="mb-0">william hense</h3>
+        <small class="text-muted m-0">Customer</small>
+        <p class="lead">"this is an awesome retaurant i ever seen.Good quality,better presentation,best service.i wish to come every sunday.whenver i get entered,i feel happy"</p></div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="card" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+        <img src="img/person2.png" class="img-fluid" alt="">
+        <div class="card-body">
+        <h3 class="mb-0">kerly botler</h3>
+        <small class="text-muted m-0">Customer</small>
+        <p class="lead">"this is an awesome retaurant i ever seen.Good quality,better presentation,best service.i wish to come every sunday.whenver i get entered,i feel happy"</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--photo gallery-->
+<section id="photos" class="text-center" uk-lightbox>
+<div class="container">
+  <div class="row mb-4">
+    <div class="col">
+      <h2 class="">Photo Gallery</h2>
+      <p class="lead">Check out our photos</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-alexander-mils-2103949.jpg">
+        <img src="img/pexels-alexander-mils-2103949.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-alexy-almond-3756498.jpg">
+        <img src="img/pexels-alexy-almond-3756498.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-artem-beliaikin-1036857.jpg">
+        <img src="img/pexels-artem-beliaikin-1036857.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-creative-vix-370984.jpg">
+        <img src="img/pexels-creative-vix-370984.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-edward-eyer-1049626.jpg">
+        <img src="img/pexels-edward-eyer-1049626.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-ella-olsson-1640777.jpg">
+        <img src="img/pexels-ella-olsson-1640777.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-jonathan-borba-2983101.jpg">
+        <img src="img/pexels-jonathan-borba-2983101.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-kaboompics-com-6267.jpg">
+        <img src="img/pexels-kaboompics-com-6267.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <a href="img/pexels-pixabay-326279.jpg">
+        <img src="img/pexels-pixabay-326279.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--footer-->
+<section id="footer" class="py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="">
+        <p class="lead">Branches</p>
+        <a class="d-block" href="">Uttara</a>
+        <a class="d-block" href="">Gulsan</a>
+        <a class="d-block" href="">Banani</a>
+        <a class="d-block" href="">Nil khet</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <p class="lead">Main Dishes</p>
+        <a class="d-block" href="">big Burger</a>
+        <a class="d-block" href="">Pizza</a>
+        <a class="d-block" href="">Salad</a>
+        <a class="d-block" href="">Coffee</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="">
+        <p class="lead">Follow Us</p>
+        <a class="" href=""><i class="fa fa-facebook-square" aria-hidden="true"></i>
+</a>
+        <a class="" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i>
+</a>
+        <a class="" href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i>
+</a>
+        <a class="" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--footer bottom-->
+<section id="footer-bottom" class="py-3">
+<div class="container">
+  <p class="lead">All Right Reserved By : <a href="">Mahmud Hasan</a></p>
+</div>
+</section>
+    <!-- JS FILES -->
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+</body>
+</html>
